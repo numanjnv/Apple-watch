@@ -1,0 +1,124 @@
+@import "./container.scss";
+@import "./global.scss";
+@import "./fonts.scss";
+
+
+.header {
+    margin-top: 20px;
+
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.hero {
+    margin-top: 91px;
+    &-item-1 {
+        display: flex;
+        align-items: center;
+
+        p {
+            color: #000;
+            font-family: Inter;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: 16px;
+        }
+
+    }
+
+    .hero-item-2 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        p {
+            color: #8C8C8C;
+            font-family: Inter;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-left: 18px;
+        }
+    }
+}
+
+.hero-box {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 76px;
+
+    h3 {
+        color: #FFC700;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    h1 {
+        color: #000;
+        font-family: Inter;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 8px;
+        line-height: normal;
+        margin-bottom: 13px;
+    }
+
+    h4 {
+        color: #000;
+        font-family: Inter;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+
+    p {
+        color: #5F5F5F;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 37px;
+        line-height: normal;
+    }
+
+    button {
+        border-radius: 9px;
+        border: 2px solid #000;
+        color: #000;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 10px 30px 10px 30px;
+        background-color: transparent;
+    }
+}
+
+
+.footer-box {
+    margin-left: 250px;
+
+    &-img-1{
+        margin-right: 32px;
+    }
+
+    &-img-2{
+        margin-right: 32px;
+    }
+}
